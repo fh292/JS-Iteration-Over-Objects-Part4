@@ -62,8 +62,7 @@ console.log(getCarMake(cars[0]));
   **********/
 
 function isCarColorMatching(car, color) {
-  if (car.color === color) return true;
-  else return false;
+  return car.color === color;
 }
 console.log(isCarColorMatching(cars[1], "Blue"));
 
